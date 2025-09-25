@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.0.5/lib/p5.esm.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@2.0.5/lib/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@ericblade/quagga2/dist/quagga.min.js"></script>
+    <title>Barcode Scanner App</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    
+    <h1>Barcode Scanner App</h1>
+
+    <!--<button id="geolocate">geolocate</button>
+    <p>Latitude: <span id="latitude"></span><br /></p>
+    <p>Longitude: <span id="longitude"></span><br /></p>-->
+
+    <a href="/logs/logs.html">Logs</a> <br /><br /><br />
+
+    <p>Enter a barcode or scan below:</p>
+    <label for="barcode">Barcode: </label>
+    <input id="barcode" value="" /> <br /><br />
+    <button id="save">Add to Logs</button><br /><br />
+
+    <div id="forquagga"></div>
+    <p> The button below will start and stop the scanner. </p>
+    <button id="btn">Start/Stop Scan</button>
+    <br />
+    <script src="sketch.js"></script>
+  </body>
+</html>
